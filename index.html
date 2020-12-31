@@ -210,24 +210,24 @@
         <div class="container form-maps">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-6 sm-12" data-aos="fade-up" data-aos-duration="2000">
-                    <form>
+                    <form method="POST" action="send.php">
                         <div class="form-row">
                           <div class="col">
-                            <input type="text" class="form-control borde-form" placeholder="Nombre">
+                            <input type="text" name="nombre" class="form-control borde-form" placeholder="Nombre">
                           </div>
                           <div class="col">
-                            <input type="text" class="form-control borde-form" placeholder="Apellido">
+                            <input type="text" name="apellido" class="form-control borde-form" placeholder="Apellido">
                           </div>
                         </div>
                         <div class="form-group">
                             <label for="email"></label>
-                            <input type="email" class="form-control borde-form" id="email" placeholder="E-mail">
+                            <input type="email" name="email" class="form-control borde-form" id="email" placeholder="E-mail">
                         </div>
                         <div class="form-group">
                             <label for="comentarios"></label>
-                            <textarea class="form-control borde-form" id="comentarios" rows="8" placeholder="Su mensaje" ></textarea>
+                            <textarea class="form-control borde-form" id="comentarios" rows="8" placeholder="Su mensaje" name="message" ></textarea>
                         </div>
-                        <button type="button" class="btn btn-primary btn-block boton" data-toggle="modal" data-target="#exampleModal">Enviar</button>
+                        <button type="submit" class="btn btn-primary btn-block boton" data-toggle="modal" data-target="#exampleModal">Enviar</button>
                     </form>
   
   

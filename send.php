@@ -34,7 +34,7 @@ $mensaje = filter_var($mensaje, FILTER_SANITIZE_STRING);
 // CABECERA DEL MAIL
 
 $header = "MIME-Version: 1.0\r\n";
-$header .= 'From: OHWA <postmaster@nombredelaweb.com>' . "\r\n"; // ACA SE MODIFICA (NOMBRE O EMPRESA) y dentro de <> ponemos postmaster@nombredelaweb.com /// ejemplo PUNCH IT <postmaster@punchit.com.ar> // el mail dentro de <> puede ser el que desees (esto te va a figurar en la cabecera cuando ingrese el correo)
+$header .= 'From: OHWA <postmaster@hcvericwajnrajch.netlify.app/>' . "\r\n"; // ACA SE MODIFICA (NOMBRE O EMPRESA) y dentro de <> ponemos postmaster@nombredelaweb.com /// ejemplo PUNCH IT <postmaster@punchit.com.ar> // el mail dentro de <> puede ser el que desees (esto te va a figurar en la cabecera cuando ingrese el correo)
 
 $header .= "Content-type: text/html; charset=utf-8\r\n";
 

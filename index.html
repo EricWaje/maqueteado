@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css">
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+    emailjs.init("user_hCqWm2f1dBjU8MxczFLo6");
+    })();
+    </script>
     
     <title>Eric Wajnrajch</title>
 </head>
@@ -210,24 +216,24 @@
         <div class="container form-maps">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-6 sm-12" data-aos="fade-up" data-aos-duration="2000">
-                    <form id="form" method="POST" action='https://formspree.io/f/mgepdkod'>
+                    <form id="form" method="POST">
                         <div class="form-row">
                           <div class="col">
-                            <input type="text" name="nombre" class="form-control borde-form" placeholder="Nombre">
+                            <input type="text" name="nombre" class="form-control borde-form" placeholder="Nombre" id="from-name">
                           </div>
                           <div class="col">
-                            <input type="text" name="apellido" class="form-control borde-form" placeholder="Apellido">
+                            <input type="text" name="apellido" class="form-control borde-form" placeholder="Apellido" id="from-lastName">
                           </div>
                         </div>
                         <div class="form-group">
                             <label for="email"></label>
-                            <input type="email" name="email" class="form-control borde-form" id="email" placeholder="E-mail">
+                            <input type="email" name="email" class="form-control borde-form" id="from-email" placeholder="E-mail">
                         </div>
                         <div class="form-group">
                             <label for="comentarios"></label>
                             <textarea class="form-control borde-form" id="comentarios" rows="8" placeholder="Su mensaje" name="message" ></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block boton" data-toggle="modal" data-target="#exampleModal" id="my-form-button">Enviar</button>
+                        <button type="submit" class="btn btn-primary btn-block boton" data-toggle="modal" data-target="#exampleModal" id="form-button">Enviar</button>
                     </form>
                     <div id="status" class="text-center"></div>
   

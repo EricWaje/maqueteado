@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', function () {
+/* window.addEventListener('DOMContentLoaded', function () {
   // get the form elements defined in your form HTML above
 
   var form = document.getElementById('form');
@@ -41,4 +41,22 @@ function ajax(method, url, data, success, error) {
     }
   };
   xhr.send(data);
-}
+} */
+const sendEmail = () => {
+  const tempParams = {
+    from_name: document.getElementById('from-name').value,
+    from_lastName: document.getElementById('from-lastName').value,
+    from_email: document.getElementById('from-email').value,
+    comentarios: document.getElementById('comentarios').value,
+  };
+  emailjs.send('gmail', 'template_p9mjwj7', tempParams).then(function (res) {
+    console.log('succes', res.status);
+  });
+};
+
+const start = () => {
+  const enviado = document.getElementById('form-button');
+  enviado.addEventListener('click', sendEmail);
+};
+
+window.onload = start;

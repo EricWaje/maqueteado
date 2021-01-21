@@ -1,13 +1,17 @@
 window.addEventListener('DOMContentLoaded', function () {
-  var form = document.getElementById('form');
+  var form = document.getElementById('formulario');
   var status = document.getElementById('status');
 
   function success() {
     form.reset();
+    status.classList.remove('danger');
+    status.classList.add('succes');
     status.innerHTML = 'Se ha enviado con éxito!';
   }
 
   function error() {
+    status.classList.remove('succes');
+    status.classList.add('danger');
     status.innerHTML = 'Ocurrió un error al enviarlo';
   }
 

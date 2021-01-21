@@ -306,6 +306,29 @@ body{
 
 }
 
+form .danger{
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: red;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    width: 240px;
+    padding: 7px 2px;
+}
+
+form .succes{
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: green;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    width: 240px;
+    padding: 7px 2px;
+}
 
 /* ----------footer---------- */
 

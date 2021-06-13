@@ -4,71 +4,56 @@ html {
 body {
   font-family: 'Poppins', sans-serif; }
 
-#barra {
-  background-color: #FFF98C;
-  position: sticky;
-  top: 0px;
-  z-index: 99; }
-
-.navbar-light .navbar-nav .nav-link {
-  font-size: 1rem;
-  color: black;
-  padding: 6px 30px; }
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: black;
-  background-color: #cb3b3b53;
-  border-radius: 20px;
-  transition: all 0.2s ease-in; }
-
-.navbar-expand-lg .navbar-collapse {
-  justify-content: center; }
-
 #fondo {
-  background: url(../img/coding-1853305_1920.png);
-  background-size: cover;
-  background-position: center;
-  min-height: 620px; }
+  min-height: 75vh;
+  margin-top: 10rem; }
 
 #fondo h5 {
   padding: 5px 0px;
-  font-weight: 500; }
+  font-weight: 500;
+  color: black; }
 
 #fondo h2 {
   padding: 5px 0px;
-  font-weight: 700; }
+  font-weight: 700;
+  color: black;
+  text-align: end; }
 
 #fondo p {
   padding: 0px 0px;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.708); }
+  color: rgba(0, 0, 0, 0.769); }
 
 #fondo .servicios {
   padding-top: 30px; }
 
 #fondo .servicios a {
-  border: none;
-  background-color: #754ef9;
-  border-radius: 50px;
+  border: 1px solid black;
+  color: white;
+  background-color: black;
   padding: 12px 30px;
   font-size: 1rem;
-  box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.75); }
-
-#fondo .servicios a:hover {
-  background-color: rgba(0, 0, 0, 0.927);
+  box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.75);
   transition: all 0.2s ease-in; }
 
-.background-overlay {
-  background: #cb3b3b53;
-  min-height: 620px;
+#fondo .servicios a:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0); }
+
+.contenedorImg {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  padding-left: 0px; }
+  justify-content: start; }
+
+.contenedorImg img {
+  width: 300px;
+  border-radius: 10px; }
 
 /* ----------ACERCA DE MI---------- */
 #acercaDeMi {
-  background-color: #E0C45C;
+  background-color: #f2f2f289;
   padding-bottom: 80px; }
 
 .titulo__acerca {
@@ -83,87 +68,76 @@ body {
   line-height: 30px;
   margin: 0px 80px; }
 
-/* --------skills--------- */
-.container-fort {
-  background-color: #CB3B3B; }
-
-.container-fort p {
-  color: white;
-  margin: 120px 30px 40px 10px;
-  line-height: 35px;
-  font-weight: 100; }
+/* SKILLS */
+#skill {
+  background-color: #e4e4e48c; }
 
 .container-skills {
-  background-color: #85203B;
   padding-bottom: 80px; }
 
 .container-skills h2 {
-  color: white;
-  margin: 40px 0px; }
-
-.container-skills h5 {
-  color: white;
-  font-weight: 100;
-  margin: 15px 0px; }
-
-.progreso {
-  background-color: #754EF9; }
-
-/* ----------SERVICIOS---------- */
-#servicios {
-  padding-bottom: 80px; }
-
-.titulo__servicios {
-  color: #4A4A4A;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  font-weight: 800; }
-
-#servicios img {
-  width: 100px;
-  height: 100px;
-  padding-bottom: 20px; }
-
-#servicios h3 {
-  color: #4A4A4A; }
-
-#servicios p {
-  font-weight: 200;
-  padding-top: 10px;
-  padding-bottom: 35px;
-  margin: 0px 40px; }
-
-.fila-servicios {
-  margin-top: 50px; }
-
-/* ----------portfolio---------- */
-#portfolio {
-  background-color: #E0C45C; }
-
-#portfolio h1 {
-  color: #4A4A4A;
+  color: #373737;
   padding-top: 80px;
   padding-bottom: 20px;
   font-weight: 800; }
 
-.container-portfolio {
-  width: 400px;
-  height: 400px; }
+.container-skills h5 {
+  color: rgba(23, 23, 23, 0.831);
+  font-weight: 300;
+  margin: 15px 0px; }
 
-.container-portfolio img {
-  width: auto;
-  height: 400px; }
+.progreso {
+  background-color: black;
+  border: 1px solid black; }
+
+/* ----------PORTFOLIO---------- */
+#portfolio {
+  background-color: #d7d7d777;
+  min-height: 50vh; }
+
+.tituloPortfolio {
+  color: #292929eb;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-weight: 800; }
+
+.contendorPortfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+
+.contendorPortfolio .ohwa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 40px; }
+
+.contendorPortfolio .edv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 40px; }
+
+.contendorPortfolio .ohwa a .ohwaImg {
+  width: 160px;
+  height: 130px; }
+
+.contendorPortfolio .edv a .edvImg {
+  width: 200px;
+  height: 130px; }
 
 /* ----------proyecto---------- */
 #proyecto {
-  background-image: url(../img/cafe.png);
+  background-color: #bfbfbf77;
   background-position: 20%;
   background-size: cover;
-  min-height: 500px; }
-
-.fondo-cafe {
-  background: #cb3b3b53;
-  min-height: 500px; }
+  min-height: 45vh; }
 
 .container-proyecto {
   display: flex;
@@ -173,79 +147,86 @@ body {
   align-content: center; }
 
 .fondo-cafe h3 {
-  color: white;
+  color: black;
   font-weight: 800;
   letter-spacing: 1px;
-  padding-bottom: 60px; }
+  margin-top: 30px;
+  margin-bottom: 60px; }
 
 .fondo-cafe p {
-  color: white;
+  color: black;
   margin: 0px 20px;
-  padding-bottom: 60px;
   text-align: center;
   width: 700px;
   font-weight: 200;
   line-height: 30px; }
 
-.fondo-cafe a {
-  border: none;
-  background-color: #754ef9;
-  border-radius: 50px;
-  padding: 20px 30px;
-  font-size: 1rem;
-  box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.75); }
+#proyecto .linea {
+  margin-top: 30px;
+  width: 150px;
+  background-color: rgba(0, 0, 0, 0.66);
+  height: 2px; }
 
-.fondo-cafe a:hover {
-  background-color: rgba(0, 0, 0, 0.927);
-  transition: all 0.2s ease-in; }
+#proyecto .telefono {
+  margin: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
 
-/* ----------contacto--------- */
-#contacto {
-  margin-top: 80px;
-  padding-bottom: 80px; }
+#proyecto .telefono img {
+  width: 30px; }
 
-#contacto .img-contacto {
-  width: 50px;
-  height: 50px;
-  margin: 0 auto;
-  padding-top: 10px; }
+#proyecto .telefono p {
+  margin: 10px 0px;
+  padding: 0px;
+  font-size: 1.1rem;
+  font-weight: 400; }
 
-.card-contacto {
-  width: 250px;
-  margin: 0 auto;
-  border: 1px solid black;
-  border-radius: 20px;
-  box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.75); }
+#proyecto .email {
+  margin: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
 
-.column-card {
-  padding: 10px 0px; }
+#proyecto .email img {
+  width: 30px; }
 
-.form-maps {
-  margin-top: 80px; }
+#proyecto .email p {
+  margin: 10px 0px;
+  padding: 0px;
+  font-size: 1.1rem;
+  font-weight: 400; }
 
 .borde-form {
   border-radius: 10px; }
 
 .boton {
-  border: none;
-  background-color: #754ef9;
-  border-radius: 50px;
-  padding: 8px 30px;
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  padding: 10px 15px;
   font-size: 1rem;
-  box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.75); }
+  box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0.75);
+  transition: all 0.2s ease-in;
+  width: 30%; }
 
 .boton:hover {
-  background-color: rgba(0, 0, 0, 0.927);
-  transition: all 0.2s ease-in; }
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 8px -2px rgba(0, 0, 0, 0); }
 
 form .danger {
   color: white;
   font-weight: 500;
   font-size: 1rem;
   background-color: red;
-  border-radius: 10px;
+  border-radius: 5px;
   display: inline-block;
-  margin: 0 auto;
   width: 240px;
   padding: 7px 2px; }
 
@@ -254,15 +235,14 @@ form .succes {
   font-weight: 500;
   font-size: 1rem;
   background-color: green;
-  border-radius: 10px;
+  border-radius: 5px;
   display: inline-block;
-  margin: 0 auto;
   width: 240px;
   padding: 7px 2px; }
 
 /* ----------footer---------- */
 footer {
-  background-color: #631429; }
+  background-color: black; }
 
 .container-img {
   width: 500px;
@@ -273,9 +253,9 @@ footer {
   align-content: center;
   align-items: center; }
 
-.container-img img {
-  width: 50px;
-  height: 50px; }
+.container-img i {
+  font-size: 2rem;
+  color: white; }
 
 .copy {
   background-color: #2A2A2A;

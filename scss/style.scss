@@ -11,6 +11,13 @@ body{
     margin-top: 10rem;
 }
 
+#fondo .contenedorPresentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 #fondo h5{
     padding: 5px 0px;
     font-weight: 500;
@@ -324,6 +331,32 @@ footer{
 }
 
 @media only screen and (min-width:300px){
+    #fondo .contenedorPresentacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    #fondo .contenedorPresentacion h2{
+        padding: 5px 0px;
+        font-weight: 500;
+        color: black;
+        font-size: 2rem;
+    }
+
+    .contenedorImg{
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    
+    .contenedorImg img{
+        width: 250px;
+        border-radius: 10px;
+    }
+
     .container-img{
         width: 300px;  
     }
@@ -343,14 +376,37 @@ footer{
         margin: 0px auto;
     }
 
-    span{
-    display: none;
-
-    }
+    
 
 }
 
 @media only screen and (min-width:576px){
+    #fondo .contenedorPresentacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    #fondo .contenedorPresentacion h2{
+        padding: 5px 0px;
+        font-weight: 500;
+        color: black;
+        font-size: 2.3rem;
+    }
+
+    .contenedorImg{
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    
+    .contenedorImg img{
+        width: 250px;
+        border-radius: 10px;
+    }
+
     .container-img{
         width: 400px;  
     }
@@ -376,6 +432,31 @@ footer{
 }
 
 @media only screen and (min-width:780px){
+    #fondo .contenedorPresentacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    #fondo .contenedorPresentacion h2{
+        padding: 5px 0px;
+        font-weight: 500;
+        color: black;
+        font-size: 2.5rem;
+    }
+
+    .contenedorImg{
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    
+    .contenedorImg img{
+        width: 250px;
+        border-radius: 10px;
+    }
     .container-img{
         width: 450px;  
     }
@@ -402,6 +483,29 @@ footer{
 }
 
 @media only screen and (min-width:1024px){
+    #fondo .contenedorPresentacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    #fondo .contenedorPresentacion h2{
+        padding: 5px 0px;
+        font-weight: 500;
+        color: black;
+        font-size: 4rem;
+    }
+    .contenedorImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    }
+    
+    .contenedorImg img{
+        width: 300px;
+        border-radius: 10px;
+    }
     .container-img{
         width: 500px;  
     }

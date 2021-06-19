@@ -51,34 +51,47 @@
     </section>
 
     <!-- -----------Skills---------- -->
-    
     <section id="skill">
-        <div class="container-fluid">
+        <div class="container container-skills">
+            <h2 class="text-center">SKILLS</h2>
             <div class="row justify-content-center">
-                <div class="col-lg-6 container-skills" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
-                    <h2 class="text-center">SKILLS</h2>
-                    <h5>HTML5</h5>
-                    <div class="progress">
-                        <div class="progress-bar progreso" role="progressbar" style="width: 90%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">90%</div>
+                <div class="col-lg-5 d-flex flex-row justify-content-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <i class="fab fa-html5"></i>
+                        <h6>HTML5</h6>
                     </div>
-                    <h5>CSS3</h5>
-                    <div class="progress">
-                        <div class="progress-bar progreso" role="progressbar" style="width: 80%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">80%</div>
+                    <div class="d-flex flex-column align-items-center">
+                        <i class="fab fa-css3-alt"></i>
+                        <h6>CSS3</h6>
                     </div>
-                    <h5>JAVASCRIPT</h5>
-                    <div class="progress">
-                        <div class="progress-bar progreso" role="progressbar" style="width: 75%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">75%</div>
+                    <div class="d-flex flex-column align-items-center">
+                        <i class="fab fa-js-square"></i>
+                        <h6>JAVASCRIPT</h6>
                     </div>
-                    <h5>REACT</h5>
-                    <div class="progress">
-                        <div class="progress-bar progreso" role="progressbar" style="width: 75%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">75%</div>
-                    </div>  
+                    <div class="d-flex flex-column align-items-center">
+                        <i class="fab fa-react"></i>
+                        <h6>REACT</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-5 d-flex flex-row justify-content-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <i class="fab fa-bootstrap"></i>
+                        <h6>BOOTSTRAP</h6>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <i class="fab fa-git-square"></i>
+                        <h6>GIT</h6>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <i class="fab fa-sass"></i>
+                        <h6>SASS</h6>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
-
     <!-- ---------SERVICIOS-------- -->
 
     <section id="portfolio">
@@ -87,11 +100,11 @@
             <div class="row contendorPortfolio" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                 <div class="col-lg-6 ohwa">
                     <a href="https://ohwamarketingdigital.com/" target="_blank"><img src="img/OhWa!-Transparent.svg" alt="ohwamarketingdigital" class="ohwaImg"></a>
-                    <p class="text-center mt-1">Agencia de marketing digital realizada con HTML, CSS Y JS</p>
+                    <p class="text-center mt-1">Agencia de marketing digital realizada con HTML, CSS Y JS. Repositorio del código en <a href="https://github.com/EricWaje/OHWA" target="_blank" style="text-decoration: none; color: black; font-weight: 700; font-style: italic;">Github</a></p>
                 </div>
                 <div class="col-lg-6 edv">
                     <a href="https://ecommerce-react-eric.netlify.app/" target="_blank" class="endavant"><img class="edvImg" src="img/logo.svg" alt="endavant"></a>
-                    <p class="text-center mt-1">E-commerce realizado con React y Firebase como base de datos</p>
+                    <p class="text-center mt-1">E-commerce realizado con React y Firebase como base de datos. Repositorio del código en <a href="https://github.com/EricWaje/ReactJs-EricWajnrajch" target="_blank" style="text-decoration: none; color: black; font-weight: 700; font-style: italic;">Github</a></p>
                 </div>
             </div>
         </div>
@@ -138,7 +151,7 @@
                                 <label for="comentarios"></label>
                                 <textarea class="form-control borde-form" id="comentarios" rows="8" placeholder="Su mensaje" name="message" ></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-block boton" id="form-button">ENVIAR</button>
+                            <input type="submit" class="boton" value='Enviar' id="form-input">
                             <div id="status" class="text-center d-flex flex-row justify-content-center"></div>
                         </form>
                     </div>

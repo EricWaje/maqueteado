@@ -128,12 +128,26 @@ body {
   .contendorPortfolio .edv p {
     height: 150px; }
 
+.contendorPortfolio .comparti {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 40px; }
+  .contendorPortfolio .comparti p {
+    height: 150px; }
+
 .contendorPortfolio .ohwa a .ohwaImg {
   width: 160px;
   height: 130px; }
 
 .contendorPortfolio .edv a .edvImg {
   width: 200px;
+  height: 130px; }
+
+.contendorPortfolio .comparti a img {
+  width: 300px;
   height: 130px; }
 
 /* ----------proyecto---------- */

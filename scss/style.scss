@@ -272,6 +272,55 @@ justify-content: start;
     border-radius: 10px;
 }
 
+#from-name{
+    border: 1px solid transparent;
+    box-shadow: none;
+    transition: all 0.2s ease-in-out;
+}
+
+#from-name:focus{
+    outline: none;
+    box-shadow: 0px 0px 6px 2px rgba(140, 140, 140, 0.235);
+    border: 1px solid transparent;
+}
+
+#from-lastName{
+    border: 1px solid transparent;
+    box-shadow: none;
+    transition: all 0.2s ease-in-out;
+}
+
+#from-lastName:focus{
+    outline: none;
+    box-shadow: 0px 0px 6px 2px rgba(140, 140, 140, 0.235);
+    border: 1px solid transparent;
+}
+
+#from-email{
+    border: 1px solid transparent;
+    box-shadow: none;
+    transition: all 0.2s ease-in-out;
+}
+
+#from-email:focus{
+    outline: none;
+    box-shadow: 0px 0px 6px 2px rgba(140, 140, 140, 0.235);
+    border: 1px solid transparent;
+}
+
+#comentarios{
+    border: 1px solid transparent;
+    box-shadow: none;
+    transition: all 0.2s ease-in-out;
+    resize: none;
+}
+
+#comentarios:focus{
+    outline: none;
+    box-shadow: 0px 0px 6px 2px rgba(140, 140, 140, 0.235);
+    border: 1px solid transparent;
+}
+
 .boton{
     border: 1px solid black;
     color: white;

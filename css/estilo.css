@@ -95,6 +95,29 @@ body {
   background-color: #d7d7d777;
   min-height: 50vh; }
 
+#portfolio .mancha {
+  width: 500px;
+  height: 300px;
+  background-color: #a7a7a777;
+  border-radius: 5px;
+  position: absolute;
+  left: -110px;
+  top: -30px;
+  z-index: -1; }
+
+#portfolio .contenedorPortfolio {
+  box-shadow: 0px 0px 10px 2px rgba(118, 118, 118, 0.345);
+  transition: all 0.2s ease-in-out; }
+  #portfolio .contenedorPortfolio:hover {
+    box-shadow: none; }
+
+#portfolio .contenedorMedio {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center; }
+
 .tituloPortfolio {
   color: #292929eb;
   padding-top: 60px;
@@ -359,7 +382,22 @@ footer {
     color: #373737;
     font-weight: 200;
     line-height: 30px;
-    margin: 0px auto; } }
+    margin: 0px auto; }
+  #portfolio .mancha {
+    width: 370px;
+    height: 230px;
+    background-color: #a7a7a777;
+    border-radius: 5px;
+    position: absolute;
+    left: -110px;
+    top: -30px;
+    z-index: -1; }
+  #portfolio .contenedorMedio {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center; } }
 
 @media only screen and (min-width: 576px) {
   #fondo .contenedorPresentacion {
@@ -394,7 +432,22 @@ footer {
     line-height: 30px;
     margin: 0px auto; }
   span {
-    display: flex; } }
+    display: flex; }
+  #portfolio .mancha {
+    width: 500px;
+    height: 330px;
+    background-color: #a7a7a777;
+    border-radius: 5px;
+    position: absolute;
+    left: -110px;
+    top: -30px;
+    z-index: -1; }
+  #portfolio .contenedorMedio {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center; } }
 
 @media only screen and (min-width: 780px) {
   #fondo .contenedorPresentacion {
@@ -429,7 +482,22 @@ footer {
     line-height: 30px;
     margin: 0px auto; }
   span {
-    display: flex; } }
+    display: flex; }
+  #portfolio .mancha {
+    width: 700px;
+    height: 430px;
+    background-color: #a7a7a777;
+    border-radius: 5px;
+    position: absolute;
+    left: -110px;
+    top: -30px;
+    z-index: -1; }
+  #portfolio .contenedorMedio {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center; } }
 
 @media only screen and (min-width: 1024px) {
   #fondo .contenedorPresentacion {
@@ -461,4 +529,36 @@ footer {
     line-height: 30px;
     margin: 0px auto; }
   span {
-    display: flex; } }
+    display: flex; }
+  #portfolio .mancha {
+    width: 470px;
+    height: 250px;
+    background-color: #a7a7a777;
+    border-radius: 5px;
+    position: absolute;
+    left: -110px;
+    top: -30px;
+    z-index: -1; }
+  #portfolio .contenedorMedio {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center; } }
+
+@media only screen and (min-width: 1024px) {
+  #portfolio .mancha {
+    width: 500px;
+    height: 300px;
+    background-color: #a7a7a777;
+    border-radius: 5px;
+    position: absolute;
+    left: -110px;
+    top: -30px;
+    z-index: -1; }
+  #portfolio .contenedorMedio {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center; } }
